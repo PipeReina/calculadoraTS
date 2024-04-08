@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" readonly>
+        <div class="buttons">
+            <button onclick="agregarNum('1')">1</button>
+            <button onclick="agregarNum('2')">2</button>
+            <button onclick="agregarNum('3')">3</button>
+            <button onclick="agregarOperacion('+')">+</button>
+            <button onclick="agregarNum('4')">4</button>
+            <button onclick="agregarNum('5')">5</button>
+            <button onclick="agregarNum('6')">6</button>
+            <button onclick="agregarOperacion('-')">-</button>
+            <button onclick="agregarNum('7')">7</button>
+            <button onclick="agregarNum('8')">8</button>
+            <button onclick="agregarNum('9')">9</button>
+            <button onclick="agregarOperacion('*')">*</button>
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="agregarNum('0')">0</button>
+            <button onclick="calcular()">=</button>
+            <button onclick="agregarOperacion('/')">/</button>
+        </div>
+    </div>
+    <script src="build/module01.js"></script>
+</body>
+</html>
