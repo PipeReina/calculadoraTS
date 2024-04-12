@@ -7,7 +7,7 @@ function agregarOperacion(op) {
     valor += op;
     actualizar();
 }
-function borrar() {
+function borra() {
     valor = '';
     actualizar();
 }
